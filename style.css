@@ -4,3 +4,8 @@ html {
     background: #8E24AA;
     background: linear-gradient(45deg,  #42a5f5 0%,#478ed1 50%,#0d47a1 100%);
   }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
