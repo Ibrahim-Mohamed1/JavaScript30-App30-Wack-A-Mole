@@ -13,7 +13,6 @@ const holes = document.querySelectorAll('.hole');
     const idx = Math.floor(Math.random() * holes.length);
     const hole = holes[idx];
     if (hole === lastHole) {
-      console.log('Ah nah thats the same one bud');
       return randomHole(holes);
     }
     lastHole = hole;
@@ -35,7 +34,7 @@ const holes = document.querySelectorAll('.hole');
     timeUp = false;
     score = 0;
     peep();
-    setTimeout(() => timeUp = true, infinite)
+    setTimeout(() => timeUp = true, 90000000)
   }
 
   function bonk(e) {
