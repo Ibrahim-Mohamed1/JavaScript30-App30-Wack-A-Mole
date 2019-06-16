@@ -75,3 +75,8 @@ html {
     align-items: center;
     justify-content: center;
   }
+  
+  .display__end-time {
+    font-size: 4rem;
+    color: white;
+  }
