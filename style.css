@@ -42,3 +42,9 @@ html {
     display: flex;
   }
   
+  .timer__controls input {
+    flex: 1;
+    border: 0;
+    padding: 2rem;
+  }
+  
