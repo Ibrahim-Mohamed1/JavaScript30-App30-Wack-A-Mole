@@ -33,3 +33,6 @@ html {
     display: flex;
   }
   
+  .timer__controls > * {
+    flex: 1;
+  }
