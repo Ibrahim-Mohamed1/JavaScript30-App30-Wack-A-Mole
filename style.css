@@ -90,3 +90,8 @@ a{
     text-decoration-color: white;
     margin-top: 0%;
 }
+@media(pointer: none), (pointer: coarse) {
+    .span{
+        font-size: 50px;
+}
+}
