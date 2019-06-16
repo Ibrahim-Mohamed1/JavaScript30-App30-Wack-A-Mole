@@ -29,3 +29,7 @@ html {
     flex-direction: column;
   }
   
+  .timer__controls {
+    display: flex;
+  }
+  
