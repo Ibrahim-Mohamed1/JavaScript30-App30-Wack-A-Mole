@@ -86,4 +86,7 @@ html {
     margin-left: 10px;
     color: white;
 }
-a
+a{
+    text-decoration-color: white;
+    margin-top: 0%;
+}
