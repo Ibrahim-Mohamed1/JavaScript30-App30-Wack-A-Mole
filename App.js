@@ -35,7 +35,7 @@ const holes = document.querySelectorAll('.hole');
     timeUp = false;
     score = 0;
     peep();
-    setTimeout(() => timeUp = true, 30000)
+    setTimeout(() => timeUp = true, infinite)
   }
 
   function bonk(e) {
